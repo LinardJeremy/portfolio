@@ -1,0 +1,106 @@
+body html {
+    width: 100%;
+    margin : 0;
+    padding: 0;
+}
+
+/* nav */
+nav {
+ position:fixed;
+}
+.navigationBar{
+    display : none;
+}
+nav a:visited{
+    text-decoration: none;
+    color: white;
+}
+.buttonMenu{
+    border: none;
+    margin-left: 75%;
+    width: 35px;
+    height: 25px;
+    display: block;
+    margin-top: 0;
+    background-color: #021C1E;
+    color: white;
+}
+.menuIcone {
+    width: 20px;
+    height: 80%;
+}
+.menuVerticale {
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 81%;
+    background-color: #021C1E ;
+    display : block;
+    list-style: none;
+    position: absolute;
+    width: 70px;
+}
+.menuVerticale li {
+    position: relative;
+    text-align: center;
+    border: solid white 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end nav */
+/* sectio information */
+.divImgProgrammer {
+    display: none;
+}
+.information {
+    border: solid black 1px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.introducing {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introducing p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+h1, h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionSocial{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.computerImg{
+    display: block;
+    height: 65px;
+    width: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* section information */
+/* section project */
+.containerCart {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* section project */
+
+.contactForm{
+    margin-left: auto;
+    width: 80%;
+    margin-bottom: auto;
+    margin-top:auto;
+    height: 80%;
+}

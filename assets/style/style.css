@@ -1,0 +1,286 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* nav */
+.menuIcone {
+    height: 100%;
+    width: 100%;
+}
+.navigationBar {
+    margin-top: 0;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+}
+.navigationBar li {
+    margin-top: 5px;
+    width: 35px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 3rem;
+}
+.buttonMenu {
+    display: none;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #14227260;
+    display: flex;
+    color: white;
+}
+nav a:visited{
+    text-decoration: none;
+    color: white;
+}
+nav span {
+    font-family: 'Merriweather', serif;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+a {
+    color :white;
+}
+/* nav */
+
+/* information */
+.information {
+    top:0;
+    background-image:url("../img/brightly-lit-laptop-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 0;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+}
+.divImgProgrammer{
+    width: 50%;
+    height: 30rem;
+}
+.imgProgrammer{
+    width: 100%;
+    height: 100%;
+}
+.introducing {
+    width: 50%;
+    margin-left: 50%;
+    margin-right: auto;
+}
+.introducing h1, h2 {
+    width: 80%;
+    font-family: 'Anton', sans-serif;
+    text-align: right;
+    color: #CDCDC0;
+    text-shadow: 0px 3px 0px #1d1c1b,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+
+}
+h1{
+    margin-top: 5rem;
+
+}
+.introducing p {
+    margin-top: 2rem;
+    width: 80%;
+    text-align: justify;
+    color : white;
+    font-family: 'Merriweather', serif;
+}
+.sectionSocial{
+    height: 50px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.sectionSocial img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+.computerImg {
+ display: none;
+}
+/* information */
+/* start section project */
+.project{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color:#02141d;
+}
+.cart{
+    margin-top: 3rem;
+    border-radius: 15px;
+    background-color: white;
+    width: 20rem;
+    border: solid black 1px;
+    padding-bottom: 3rem;
+}
+.cart img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.cart img:hover{
+    opacity: 0.6;
+}
+.cart button{
+    height: 2.5rem;
+    width: 6rem;
+    margin-left: 8rem;
+    margin-right: auto;
+    margin-top: 3rem;
+    background-color: #6FB98F;
+    border: none;
+    font-family: 'Merriweather', serif;
+
+}
+.cart button:hover{
+    background-color: #2C7873;
+}
+.cart p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    
+}
+.containerCart{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+/* end section projects */
+
+/* section contact */
+.contact {
+    background-image: url("../img/Sans titre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    margin-bottom: 0;
+
+}
+.contactForm {
+    border: solid rgb(63, 60, 60) 1px;
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 100%;
+    width: 20rem;
+    margin-left: 55%;
+    margin-right: auto;
+    background-color: white;
+}
+h3 {
+    width: 80%;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+.sectionSocial2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 50px;
+
+}
+.sectionSocial2 img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+.containerForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+}
+label {
+    /* border: solid black 1px; */
+    width: 5rem;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea {
+    margin-top: 1.5rem;
+    height: 5em;
+    vertical-align: top;
+    width: 10rem;
+}
+.divLabelInput{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.labelMessage{
+    margin-top: 1.5rem;
+}
+.buttonSend{
+    padding: 0;
+    background-color: #142272;
+    border-radius: 20px;
+    margin-top:1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    height: 2rem;
+    width: 4rem;
+}
+/* end section contact */
+
+/* footer */
+footer {
+    margin-bottom: 0 ;
+    bottom: 0;
+    background-color:#14227260;
+    color: rgb(170, 162, 162);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer p{
+    display: inline-block;
+    font-size: smaller;
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+.sectionSocialFooter img{
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+}
+.sectionSocialFooter{
+    display: inline-block;
+    margin-left: 0rem;
+}
+/* end footer */
