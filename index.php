@@ -6,7 +6,6 @@ if(isset($_GET["checkSend"])){
 $_GET["checkSend"] = "none";
 };
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -32,6 +31,15 @@ $_GET["checkSend"] = "none";
 </ul>
 <button class="buttonMenu" onclick="showMenu()"><img class="menuIcone" alt="menu" src="assets/img/burgerMenu.png"></button>
 </nav>
+
+<nav class="navLittleScreen" id="IdnavLittleScreen">
+<ul class="navigationBarLittle">
+    <a href="#information"><li>Accueil</li></a>
+    <a href="#project"><li>Projets</li></a>
+    <a href="#contact"><li id="contactli">Contact</li></a>
+</ul>
+</nav>
+
 <!-- NavBar -->
 <!-- information -->
 <section class="information" id="information">
@@ -54,7 +62,7 @@ $_GET["checkSend"] = "none";
         </p>
         <div class="sectionSocial">
             <a target="_blank" href="https://github.com/LinardJeremy"><img src="assets/img/github2.png" alt="iconeGithub"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/jeremy-linard/"><img src="assets/img/linkedin-xxl.png"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/jeremy-linard/"><img src="assets/img/linkedin-xxl.png" alt=" Linkedin icon"></a>
         </div>
     </div>
 
@@ -98,7 +106,7 @@ $_GET["checkSend"] = "none";
             ci-dessous. 
         </h3>
         <div class="sectionSocial2">
-            <a target="_blank" href="https://www.linkedin.com/in/jeremy-linard/"><img src="assets/img/linkedin.png"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/jeremy-linard/"><img src="assets/img/linkedin.png" alt="linkedin icon"></a>
         </div>
         <div class="containerForm">
             <div class="divLabelInput">
@@ -110,7 +118,7 @@ $_GET["checkSend"] = "none";
                 <input type="text" id="lname" name="lastname" placeholder="Votre prénom...">
             </div>
             <div class="divLabelInput">
-                <label for="email">Votre email: </label>
+                <label for="mail">Votre email: </label>
                 <input type="text" id="mail" name="mail" placeholder="Votre adresse email...">
             </div>
             <div class="divLabelInput">
@@ -131,7 +139,7 @@ $_GET["checkSend"] = "none";
 <p>Jérémy Linard</p>
     <div class="sectionSocialFooter">
         <a target="_blank" href="https://github.com/LinardJeremy"><img src="assets/img/github2.png" alt="iconeGithub"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/jeremy-linard/"><img src="assets/img/linkedin-xxl.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/jeremy-linard/"><img src="assets/img/linkedin-xxl.png" alt="Linkedin icon"></a>
     </div>
 </footer>
 <!-- footer -->
